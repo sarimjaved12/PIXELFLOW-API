@@ -1,0 +1,15 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Operating System files
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# AWS
+.serverless/
+.webpack/
+node_modules/
+.env
