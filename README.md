@@ -190,14 +190,20 @@ serverless deploy
 
 ## 🖼️ Examples
 Here are examples of image transformations using the PixelFlow API:
-Original Input Image:
+
+**Original Input Image:**
+
 ![Input Image](assests/input_image_example.png)
 
-Grayscale Transformation:
+**Grayscale Transformation:**
+
 ![Grayscale Output](assests/grayscaled_image_example.png)
 
-API Processed Output:
+**API Processed Output:**
+
 ![API Processed Output](assests/api_processed_image_example.png)
+
+
 ---
 
 ## 💡 Key Learnings & Challenges
