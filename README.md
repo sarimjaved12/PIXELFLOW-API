@@ -240,7 +240,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## ✍️ Author
 
-**[Your Name]**  
+**[Sarim Javed]**  
 [https://github.com/sarimjaved12]  
 [www.linkedin.com/in/sarim-javed-9147a0328]
 
