@@ -1,0 +1,33 @@
+service: image-processor-api
+
+frameworkVersion: '4'
+
+provider:
+  name: aws
+  runtime: python3.13
+  stage: dev
+  region: us-east-2
+  lambdaHashingVersion: 20201221
+  httpApi:
+
+plugins:
+  - serverless-python-requirements
+
+custom:
+  pythonRequirements:
+    dockerizePip: true
+    noDeploy:
+      - pip
+      - setuptools
+      - wheel
+
+functions:
+  processImage:
+    handler: handler.process_image
+    memory: 1024
+    timeout: 60
+    events:
+      - httpApi:
+          path: /process-image
+          method: post
+          

@@ -1,15 +1,59 @@
-# Python
+# Python virtual environment directories
 venv/
+.venv/
+
+# Python compiled files
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Python dependency management 
+.mypy_cache/
 .pytest_cache/
+.ruff_cache/
+.tox/
+.coverage
+.coverage.*
+.ipynb_checkpoints
+.pytest_cache/
+htmlcov/
 
-# Operating System files
-.DS_Store # macOS
-Thumbs.db # Windows
+# Node.js modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm/
 
-# AWS
+# Serverless Framework generated directories and files
 .serverless/
 .webpack/
-node_modules/
-.env
+.build/
+.serverless-offline/
+.serverless-plugins/
+.serverless-secrets.json # If you ever use serverless-secrets plugin
+.env # Environment variables (often sensitive)
+
+# Local test output images
+grayscaled_output.jpg
+resized_output.jpg
+api_processed_output.jpg
+
+
+.vscode/ # Visual Studio Code settings
+.idea/   # IntelliJ IDEA / PyCharm settings
+
+
+.DS_Store # macOS
+Thumbs.db # Windows
+ehthumbs.db # Windows
+Desktop.ini # Windows
+
+
+.aws/
+
+
+*.log
+*.tmp
+*.temp
